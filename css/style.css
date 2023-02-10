@@ -1,9 +1,9 @@
 header {
   background-color: #198754;
-  font-family: font-family "Squada One", cursive; }
+  font-family: 'Righteous', cursive; }
 
 body {
-  font-family: font-family "Squada One", cursive;
+  font-family: 'Righteous', cursive;
   overflow-x: hidden; }
   body #menu a,
   body button {
@@ -35,7 +35,12 @@ body {
     background-color: burlywood;
     min-height: 100px;
     position: relative; }
-  body .animate__animated.animate__fadeInUp {
-    --animate-duration: 4s; }
-  body .animate__animated.animate__rotateIn {
-    --animate-duration: 4s; }
+  body .animate__animated.animate__flipInX {
+    --animate-duration: 4s;
+  
+  }
+  .row {
+    margin-right: 0px;
+  }  
+  
+  
